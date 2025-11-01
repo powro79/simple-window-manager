@@ -1,0 +1,1 @@
+# simple-window-manager
