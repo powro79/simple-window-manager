@@ -1,0 +1,34 @@
+{
+    "name": "Simple Window Manager (Shortcuts)",
+    "description": "Keyboard shortcuts to position and resize the current window.",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "permissions": [
+        "windows",
+        "system.display"
+    ],
+    "background": {
+        "service_worker": "background.js",
+        "type": "module"
+    },
+    "commands": {
+        "center-window": {
+            "description": "Center the current window"
+        },
+        "center-75": {
+            "description": "Resize to 75% × 75% and center"
+        },
+        "top-left-50": {
+            "description": "50% × 50% at top-left"
+        },
+        "top-right-50": {
+            "description": "50% × 50% at top-right"
+        },
+        "bottom-right-50": {
+            "description": "50% × 50% at bottom-right"
+        },
+        "bottom-left-50": {
+            "description": "50% × 50% at bottom-left"
+        }
+    }
+}
